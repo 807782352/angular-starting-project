@@ -18,4 +18,9 @@ export class NewTaskComponent {
   onCancel() {
     this.cancel.emit();
   }
+
+  onSubmit() {
+    // Handle form data, update state, etc.
+    console.log('Form submitted!');
+  }
 }
